@@ -2,6 +2,11 @@
 export default defineNuxtConfig({
   head: {},
 
+  app: {
+    layoutTransition: false,
+    pageTransition: false,
+  },
+
   css: [
     'destyle.css',
     '~/assets/scss/common/index.scss',

@@ -31,17 +31,3 @@
   filter: blur(4px);
   opacity: 0;
 }
-
-.page-enter-active {
-  transition: 0.96s;
-}
-
-.page-leave-active {
-  transition: 0.64s;
-}
-
-.page-enter,
-.page-leave-to {
-  filter: blur(4px);
-  opacity: 0;
-}
