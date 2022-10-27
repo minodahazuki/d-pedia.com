@@ -4,6 +4,7 @@ export default defineNuxtConfig({
 
   css: [
     'destyle.css',
+    '~/assets/scss/common/index.scss',
   ],
 
   modules: [],
@@ -14,4 +15,16 @@ export default defineNuxtConfig({
     strict: true,
   },
 
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `
+@use "~/assets/scss/mixin/index.scss" as *;
+@use "~/assets/scss/variable/index.scss" as *;
+          `,
+        },
+      },
+    },
+  },
 });

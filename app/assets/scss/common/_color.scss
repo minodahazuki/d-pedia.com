@@ -1,0 +1,21 @@
+:root {
+  // 基本の色
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  // プライマリー色
+  --color-parimary-main: var(--color-black);
+  --color-parimary-light: var(--color-white);
+
+  // テキストで使用する色
+  --color-text-primary: var(--color-parimary-main);
+
+  // ボタンで使用する色
+  --color-button-primary: var(--color-parimary-main);
+  --color-button-primary-text: var(--color-white);
+
+  // 背景で使用する色
+  --color-bg-primary: var(--color-white);
+
+  // シャドーで使用する色
+}
