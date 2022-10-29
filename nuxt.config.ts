@@ -12,6 +12,12 @@ export default defineNuxtConfig({
     '~/assets/scss/common/index.scss',
   ],
 
+  imports: {
+    dirs: [
+      'composables/**/index.{ts,js,mjs,mts}',
+    ],
+  },
+
   modules: [],
 
   srcDir: 'app/',
